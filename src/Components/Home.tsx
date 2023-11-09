@@ -5,6 +5,7 @@ import SingleArtilce from "./SingleArticle";
 import Details from "./Details";
 
 const Home = () => {
+  const a=1
   const [news, setNews] = useState([]);
   const [id, setId] = useState();
   const getData = () => {
